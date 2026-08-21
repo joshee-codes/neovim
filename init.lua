@@ -1010,7 +1010,7 @@ do
   require 'kickstart.plugins.indent_line'
   require 'kickstart.plugins.lint'
   require 'kickstart.plugins.autopairs'
-  require 'kickstart.plugins.neo-tree'
+  -- require 'kickstart.plugins.neo-tree'
   require 'kickstart.plugins.gitsigns' -- adds gitsigns recommended keymaps
   require 'kickstart.plugins.smear-cursor' -- smooth cursor animation
   require 'kickstart.plugins.venv-selector' -- Python venv selection
@@ -1019,6 +1019,7 @@ do
   require 'kickstart.plugins.fff'
   -- Phase 1: Core QoL plugins
   require 'kickstart.plugins.flash' -- Label-based jumping
+  require 'kickstart.plugins.mini' -- mini
   require 'kickstart.plugins.grapple' -- Pin files, jump with <leader>1..4
   require 'kickstart.plugins.grug-far' -- Project-wide find-and-replace
 
